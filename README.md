@@ -1,2 +1,2 @@
-# temporary-firefox-macos
-Automator scripts to run Firefox with a temporary profile
+# temporary-firefox
+Scripts to run Firefox with a temporary profile
