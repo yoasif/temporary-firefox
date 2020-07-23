@@ -1,5 +1,5 @@
 #!/bin/sh
-PROFILEDIR=/tmp/tmp-fx-profile.$$.d
+PROFILEDIR=`mktemp -d "${TMPDIR:-/tmp}tmp-fx-profile.XXXXXX"`
 
 mkdir $PROFILEDIR
 /Applications/Firefox.app/Contents/MacOS/firefox -profile $PROFILEDIR -no-remote -new-instance
